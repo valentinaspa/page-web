@@ -1,0 +1,154 @@
+/* Body and Typography */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, p {
+    margin: 0;
+  }
+
+  .product-grid img{
+    width: 250px;
+    height: 150px;
+  }
+  
+  /* Header */
+  header {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #333333;
+    text-decoration: none;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    color: #777777;
+    margin-bottom: 30px;
+  }
+  
+  .cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333333;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  /* Products Section */
+  #produits {
+    background-color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #produits h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #produits p {
+    font-size: 18px;
+    color: #777777;
+    margin-bottom: 30px;
+  }
+  
+  /* About Section */
+  #apropos {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #apropos h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Contact Section */
+  #contact {
+    background-color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333333;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #777777;
+  }
+  
+  footer a {
+    color: #777777;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
